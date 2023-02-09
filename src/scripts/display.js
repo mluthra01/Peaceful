@@ -20,8 +20,9 @@ export const display = () => {
         whyMeditate.style.display = 'none'
         theme2Section.style.display = 'none'
         footer.style.display = 'none'
-        peaceful.style.color = 'snow'
+        peaceful.style.color = 'skyblue'
         homeBtn.style.display = 'block'
+        homeBtn.style.border = '2px solid skyblue'
         
     })
 
@@ -31,8 +32,9 @@ export const display = () => {
         whyMeditate.style.display = 'none'
         theme1Section.style.display = 'none'
         footer.style.display = 'none'
-        peaceful.style.color = 'snow'
+        peaceful.style.color = 'lightgreen'
         homeBtn.style.display = 'block'
+        homeBtn.style.border = '2px solid lightgreen'
         
     })
 
@@ -43,8 +45,9 @@ export const display = () => {
         theme1Section.style.display = 'none'
         theme2Section.style.display = 'none'
         footer.style.display = 'none'
-        peaceful.style.color = 'snow'
+        peaceful.style.color = 'lightyellow'
         homeBtn.style.display = 'block'
+        homeBtn.style.border = '2px solid lightyellow'
     })
 
 
@@ -68,6 +71,7 @@ export const display = () => {
     whyMeditateBtn.style.display = 'none'
     footer.style.display = 'none'
     homeBtn.style.display = 'block'
+    homeBtn.style.border = "2px solid lightyellow"
 })
 
     homeBtn.addEventListener('click', () => {
