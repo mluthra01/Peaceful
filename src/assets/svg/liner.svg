@@ -1,0 +1,44 @@
+<svg width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="226.5" cy="226.5" r="216.5" stroke="url(#grad1)" stroke-width="20"/>
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ADD8E6"/>
+      <stop offset="100%" stop-color="#00008B"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+
+<!-- liked this one -->
+
+<!-- <svg class="moving-outline" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#018EBA" />
+                        <stop offset="100%" stop-color="#00D8D6" />
+                    </linearGradient>
+                </defs>
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="url(#gradient)" stroke-width="20" />
+            </svg> -->
+
+
+            <svg width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="226.5" cy="226.5" r="216.5" stroke="url(#grad3)" stroke-width="20"/>
+  <defs>
+    <linearGradient id="grad3" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0000"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+
+<svg width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="226.5" cy="226.5" r="216.5" stroke="url(#grad2)" stroke-width="20"/>
+  <defs>
+    <linearGradient id="grad2" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF00"/>
+      <stop offset="100%" stop-color="#FFFF00"/>
+    </linearGradient>
+  </defs>
+</svg>

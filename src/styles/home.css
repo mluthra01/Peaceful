@@ -1,0 +1,225 @@
+    @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+    
+            to {
+                opacity: 1;
+            }
+        }
+    
+header {
+    position: relative;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+    
+    .homepage {
+    height: 90vh;
+    width: 100%;
+
+    }
+    
+
+.photo-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+h3 {
+    margin-top: 25px;
+    padding-left: 30px;
+    font-size: 35px;
+    font-family: pacifico;
+    cursor: pointer;
+}
+
+.meditation-reason {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.meditation-reason-btn {
+    background-color:transparent;
+    color:black;
+    border: 2px solid #333;
+    border-radius: 30px;
+    padding: 20px 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0px 0px 10px 0px rgba(83, 53, 53, 0.75);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.meditation-reason-btn:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #fff;
+}
+
+.open-lines {
+    padding-left: 30px;
+    opacity: 0;
+        animation: fadeIn 3s;
+        animation-delay: 0s;
+        animation-fill-mode:forwards
+
+}
+
+#tagline {
+    /* color:snow; */
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: roboto;
+    font-weight: 200;
+    font-size: 80px;
+    margin-bottom: 40px;
+    /* margin-top: 50px; */
+    text-shadow: 2px 2px 1px black;
+}
+
+#subtag {
+    /* color: black; */
+    display: flex;
+    color:lightyellow;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px gray;
+}
+
+
+.themes {
+    /* opacity: 0.5; */
+    display: flex;
+    font-family: 'Open-sans', sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 16%;
+    /* margin: 30px 0; */
+
+}
+
+#theme1-btn {
+opacity: 0;
+    animation: fadeIn 3s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+#theme2-btn {
+    opacity: 0;
+        animation: fadeIn 3s;
+        animation-delay: 0.3s;
+        animation-fill-mode: forwards;
+}
+
+#theme3-btn {
+    opacity: 0;
+        animation: fadeIn 3s;
+        animation-delay: 0.6s;
+        animation-fill-mode: forwards;
+}
+
+.themes > button {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 28px;
+    color: lightyellow;
+    border: 0.8px solid black;
+    padding: 20px 30px;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    width: 30%;
+    margin: 10px 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.themes > button:hover {
+    border-radius: 15px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+    /* background-color: snow; */
+    border-color: lightyellow;
+    text-shadow: 2px 1px 2px gray;
+    display: flex;
+}
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 2%;
+} */
+
+footer img {
+    height: 60px;
+    width: 60px;
+}
+
+#footer-comment {
+    font-size: 15px;
+    color: #fff;
+    margin-top: 17px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+#footer-emoji {
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#footer-content {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 10px;
+    bottom: 0;
+    right: 0;
+    margin: 2%;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+
+#footer-content:hover {
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+
+
+.footer_links a {
+    padding: 10px;
+    text-decoration: none;
+}
