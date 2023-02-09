@@ -1,5 +1,3 @@
-    // import { themeFirst } from "./theme1";
-
 export const display = () => {
     const theme1Btn = document.getElementById('theme1-btn');
     const theme2Btn = document.getElementById('theme2-btn');
@@ -15,7 +13,6 @@ export const display = () => {
     const footer = document.querySelector("#footer-content")
     const peaceful = document.querySelector('h3')
     const footerComment = document.querySelector('#footer-comment')
-    // const header = document.querySelector('header')
 
     theme1Btn.addEventListener('click', () => {
         theme1Section.style.display = 'flex'
@@ -46,7 +43,7 @@ export const display = () => {
         theme1Section.style.display = 'none'
         theme2Section.style.display = 'none'
         footer.style.display = 'none'
-        peaceful.style.color = 'yellowwhite'
+        peaceful.style.color = 'snow'
         homeBtn.style.display = 'block'
     })
 
@@ -82,6 +79,7 @@ export const display = () => {
     whyMeditate.style.display = 'block'
     footer.style.display = 'flex'
     homeBtn.style.display = 'none'
+    peaceful.style.color = 'black'
 
     })
 

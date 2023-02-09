@@ -168,16 +168,14 @@ opacity: 0;
     display: flex;
 }
 
-/* footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 2%;
-} */
-
 footer img {
     height: 60px;
     width: 60px;
+}
+
+footer img:hover {
+    height: 65px;
+    width: 65px;
 }
 
 #footer-comment {
@@ -209,12 +207,6 @@ footer img {
     margin: 2%;
     border: 2px solid white;
     border-radius: 10px;
-    
-}
-
-#footer-content:hover {
-    border-radius: 15px;
-    border: 2px solid black;
     
 }
 

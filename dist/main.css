@@ -303,16 +303,14 @@ opacity: 0;
     display: flex;
 }
 
-/* footer {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: 2%;
-} */
-
 footer img {
     height: 60px;
     width: 60px;
+}
+
+footer img:hover {
+    height: 65px;
+    width: 65px;
 }
 
 #footer-comment {
@@ -344,12 +342,6 @@ footer img {
     margin: 2%;
     border: 2px solid white;
     border-radius: 10px;
-    
-}
-
-#footer-content:hover {
-    border-radius: 15px;
-    border: 2px solid black;
     
 }
 
@@ -404,16 +396,49 @@ footer img {
 
 }
 
-.time-select button, .time-select1 button, .time-select2 button {
-    background-color: rgba(255, 255, 255, 0.3);
-    color: black;
+.time-select button {
+    background-color: transparent;
+    color: lightblue;
+    border-radius: 20px;
+    border: 2px solid lightgray;
     width: 30%;
     height: 10%;
-    border-radius: 15px;
     font-size: 30px;
-    text-shadow: 3px 3px 3px gray;
+    text-shadow: 2px 2px 2px gray;
     cursor: pointer;
+    transition: all 0.5s ease;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+
+.time-select1 button{
+background-color: transparent;
+    color: lightgreen;
+    border-radius: 20px;
     border: 2px solid lightgray;
+    width: 30%;
+    height: 10%;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px gray;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    opacity: 0;
+    animation: fadeIn 2s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+}
+.time-select2 button {
+background-color: transparent;
+    color: lightyellow;
+    border-radius: 20px;
+    border: 2px solid lightgray;
+    width: 30%;
+    height: 10%;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px gray;
+    cursor: pointer;
     transition: all 0.5s ease;
     opacity: 0;
     animation: fadeIn 2s;
@@ -423,13 +448,31 @@ footer img {
 
 
 
-
-.time-select button:hover, .time-select1 button:hover, .time-select2 button:hover{
-    background-color: rgba(255, 255, 255, 0.5);
+.time-select button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
-    color:black;
-    border: 2px solid lightgray;
+    color:lightblue;
+    border: 2px solid gray;
     cursor: pointer;
+}
+
+
+.time-select1 button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        color: lightblue;
+        border: 2px solid gray;
+        cursor: pointer;
+
+}
+
+.time-select2 button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        color: lightpink;
+        border: 2px solid gray;
+        cursor: pointer;
+
 }
 
 .svg-container  {
@@ -445,8 +488,8 @@ footer img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     opacity: 0.8;
     transition: all 0.3s ease-in-out;
@@ -478,6 +521,18 @@ footer img {
     margin-right: 40px;
 }
 
+.display-time2 {
+    color: lightyellow;
+}
+
+.display-time1 {
+    color: lightgreen;
+}
+
+.display-time {
+    color: lightblue;
+}
+
 .svg-container {
     height: 80%;
     display: flex;
@@ -502,12 +557,15 @@ footer img {
 
 .theme-instructions {
     margin-top: 30px;
+    margin-right: 200px;
+    /* margin-left: 100px; */
+    padding-right: 50px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px 20px 20px;
-    font-size: 40px;
-    border-radius: 20px;
+    font-size: 30px;
+    border-radius: 7px;
     border: 2px solid black;
-    color: darkblue;
+    /* color: darkblue; */
     text-shadow: 2px 2px 2px gray;
     opacity: 0;
         animation: fadeIn 3s;
@@ -519,7 +577,7 @@ footer img {
 
 .theme-guide {
     position: absolute;
-    margin-left: 200px;
+    margin-left: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -534,7 +592,6 @@ footer img {
     position: absolute;
     right: 10px;
     top: 10px;
-    /* display: flex; */
     justify-content: flex-end;
     padding-top: 10px;
     margin-top: 10px;
@@ -567,6 +624,15 @@ footer img {
     width: 50px;
     height: 50px;
     padding-right: 20px;
+}
+
+#volume, #volume1, #volume2 {
+    position: absolute;
+    margin-bottom: 100px;
+        width: 200px;
+        height: 20px;
+    
+    
 }
 
 body {

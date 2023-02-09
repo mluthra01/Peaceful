@@ -13,7 +13,7 @@
     <header>
         <h3>Peaceful</h3>
         <div class="meditation-reason">
-            <button  class="meditation-reason-btn" id="why-med"> <!--omitted id of why med-->
+            <button  class="meditation-reason-btn" id="why-med"> 
                 <h4>WHY MEDITATION?</h4>
             </button>
         </div>
@@ -31,16 +31,19 @@
                 Well-Being with These Meditations:</p>
         </div>
         <div class="themes">
-                <button class="theme-btn" id="theme1-btn">   Connect with the Beauty of the Outdoors</button> <!--Nature Meditation:-->
-                <button class="theme-btn" id="theme2-btn">  Find Calm in the Chaos</button> <!--Mindful Breathing:-->
-                <button class="theme-btn" id="theme3-btn"> Let Gentle Sounds Calm Your Mind</button><!--Soothing Sounds:-->
+                <button class="theme-btn" id="theme1-btn"> Escape the chaos, embrace the rain</button> 
+                <button class="theme-btn" id="theme2-btn"> Discover serenity in the great outdoors</button> 
+                <button class="theme-btn" id="theme3-btn"> Find peace in the vastness of the universe</button>
         </div>
     </section>
 
 
-    <section class="all-themes" id="theme1"> <!--theme1 button redirects here-->
+    <section class="all-themes" id="theme1"> 
         <div class="theme-guide">
-            <h1 class="theme-instructions"> Close your eyes listen to the music and relax</h1>
+            <h1 class="theme-instructions">I am at peace with where I am in life and trust the journey ahead. 
+                <br>
+                <p style="color:aqua">Click Play, Close Your Eyes and repeat</p>
+            </h1>
         </div>
         <div class="video-container">
             <video class = "video1" loop muted >
@@ -52,53 +55,45 @@
         <div class="svg-container">
             <audio class="music1">
                 <source src="./src/assets/sounds/rain.mp3">
-                <input id="volume" type="range" min="0" max="1" step="0.1" value="1">
             </audio>
             <div class="playpause">
             <img src="./src/assets/svg/play.svg" alt="play" class="play1">
-            </div>
-            <svg class="track-outline" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="226.5" cy="226.5" r="216.5" stroke="url(#grad4)" stroke-width="20" />
-                <defs>
-                    <linearGradient id="grad4" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#800080" />
-                        <stop offset="100%" stop-color="#FFC0CB" />
-                    </linearGradient>
-                </defs>
+        </div>
+    
+            <svg class="track-outline" width="453" height="453" viewBox="0 0 453 453" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="snow" stroke-width="20" />
             </svg>
-
-
-            <svg class = "moving-outline" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="226.5" cy="226.5" r="216.5" stroke="url(#grad1)" stroke-width="20" />
-                <defs>
-                    <linearGradient id="grad1" x1="0" y1="0" x2="100%" y2="100%">
-                        <stop offset="0%" stop-color="#ADD8E6" />
-                        <stop offset="100%" stop-color="#00008B" />
-                    </linearGradient>
-                </defs>
-            </svg> 
-
+            <svg class="moving-outline" width="453" height="453" viewBox="0 0 453 453" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="skyblue" stroke-width="20" />
+            </svg>
+        
             <img src="./src/assets/svg/replay.svg" class="replay"></img>
                     <h3 class="display-time">00:00 </h3>
-            </div>
+            
+                    <input id="volume" type="range" min="0" max="1" step="0.1" value="1">
+
+        </div>
+    
 
         <div class="time-select">
                 <button data-time="120"> 2 Minutes</button>
                 <button data-time="300"> 5 Minutes</button>
                 <button data-time="600"> 10 Minutes</button>
         </div>
-                
+        
     </section>
 
 
 
     <section class="all-themes" id="theme2">
         <div class="theme-guide">
-            <h1 class="theme-instructions"> Close your eyes listen to the music and relax</h1>
+            <h1 class="theme-instructions"> Click Play, Close Your Eyes and Relax</h1>
         </div>
         <div class="video-container">
             <video class="video2" loop muted>
-                <source src="./src/assets/video/outside.mp4" type="video/mp4" >
+                <source src="./src/assets/video/nature.mp4" type="video/mp4" >
             </video>
         </div>
 
@@ -106,18 +101,19 @@
             <audio class="music2">
                 <source src="./src/assets/sounds/park.mp3">
             </audio>
-            <div class="playpause">
+        <div class="playpause">
             <img src="./src/assets/svg/play.svg" alt="play" class="play2">
-            </div>
+        </div>
             
             <svg class="track-outline1"width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20" />
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="lightyellow" stroke-width="20" />
             </svg>
             <svg class="moving-outline1" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20" />
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="green" stroke-width="20" />
             </svg>
             <img src="./src/assets/svg/replay.svg" class="replay1"></img>
             <h3 class="display-time1">00:00 </h3>
+            <input id="volume1" type="range" min="0" max="1" step="0.1" value="1">
         </div>
  
 
@@ -131,7 +127,7 @@
 
     <section class="all-themes" id="theme3"> 
         <div class="theme-guide">
-            <h1 class="theme-instructions"> Close your eyes listen to the music and relax</h1>
+            <h1 class="theme-instructions"> Click Play, Close Your Eyes and Relax</h1>
         </div>
         <div class="video-container">
             
@@ -144,26 +140,41 @@
             <audio class="music3">
                 <source src="./src/assets/sounds/meditrelax.mp3">
             </audio>
-            <div>
+        <div class="playpause">
             <img src="./src/assets/svg/play.svg" alt="play" class="play3">
-            </div>
+        </div>
+
             <svg class="track-outline2" width="453" height="453" viewBox="0 0 453 453" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
-                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20" />
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="url(#grad4)" stroke-width="20" />
+                <defs>
+                    <linearGradient id="grad4" x1="0" y1="0" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#800080" />
+                        <stop offset="100%" stop-color="#FFC0CB" />
+                    </linearGradient>
+                </defs>
             </svg>
+            
             <svg class="moving-outline2" width="453" height="453" viewBox="0 0 453 453" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
-                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20" />
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="url(#grad1)" stroke-width="20" />
+                <defs>
+                    <linearGradient id="grad1" x1="0" y1="0" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#ADD8E6" />
+                        <stop offset="100%" stop-color="#00008B" />
+                    </linearGradient>
+                </defs>
             </svg>
             <img src="./src/assets/svg/replay.svg" class="replay2"></img>
                 <h3 class="display-time2">00:00 </h3>
-            </div>
+                <input id="volume2" type="range" min="0" max="1" step="0.1" value="1">
+        </div>
         
-            <div class="time-select2">
+        <div class="time-select2">
                 <button data-time="120"> 2 Minutes</button>
                 <button data-time="300"> 5 Minutes</button>
                 <button data-time="600"> 10 Minutes</button>
-            </div>
+        </div>
     
 
     </section>  
