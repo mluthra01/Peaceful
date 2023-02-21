@@ -3,7 +3,7 @@
 Peaceful is a creative meditation app that offers a unique meditation experience to its users. The app utilizes music to create a soothing and calming environment that allows users to quiet their minds and find inner peace.  Users will be able to customize their meditation journey, choosing from different types of themes 
 The app is easily scalable and many more themes can be added easily.
 
-Check it out here [Peaceful](mluthra01.github.io/Peaceful)
+Check it out here [Peaceful](https://mluthra01.github.io/Peaceful/)
 
 ## Features
 In Peaceful, users will be able to:
