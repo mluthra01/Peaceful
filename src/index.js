@@ -4,9 +4,7 @@ import { themeSecond } from './scripts/theme2'
 import { themeThird } from './scripts/theme3'
 
 document.addEventListener("DOMContentLoaded", () => {
-    themeFirst()
-    themeSecond()
-    themeThird()
+
     display()
 
     // window.addEventListener("beforeunload", (e) => {

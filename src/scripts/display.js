@@ -1,3 +1,7 @@
+import { themeFirst} from './theme1'
+import { themeSecond } from './theme2'
+import { themeThird } from './theme3'
+
 export const display = () => {
     const theme1Btn = document.getElementById('theme1-btn');
     const theme2Btn = document.getElementById('theme2-btn');
@@ -23,7 +27,7 @@ export const display = () => {
         peaceful.style.color = 'skyblue'
         homeBtn.style.display = 'block'
         homeBtn.style.border = '2px solid skyblue'
-        
+        themeFirst()
     })
 
     theme2Btn.addEventListener('click', () => {
@@ -35,7 +39,7 @@ export const display = () => {
         peaceful.style.color = 'lightgreen'
         homeBtn.style.display = 'block'
         homeBtn.style.border = '2px solid lightgreen'
-        
+        themeSecond()
     })
 
     theme3Btn.addEventListener('click', () => {
@@ -48,6 +52,7 @@ export const display = () => {
         peaceful.style.color = 'lightyellow'
         homeBtn.style.display = 'block'
         homeBtn.style.border = '2px solid lightyellow'
+        themeThird()
     })
 
 
